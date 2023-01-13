@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+    <link rel="stylesheet" href="1_style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+
+    <div class='profile-card'>
+        <div class="image">
+            <img src='https://variety.com/wp-content/uploads/2014/05/doraemon2.jpg' alt="" class="profile-img">
+        </div>
+
+        <div class="text-data">
+            <div class="name">ドラえもん</div>
+            <div class="job">I am ドラえもん. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem commodi modi voluptas fugit! Adipisci rerum nobis nisi quibusdam reiciendis.
+            </div>
+        </div>
+
+        <div class='media-btn'>
+            <a href="#" class="link" style="background-color:#4267b2"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="link" style="background-color:#1da1f2"><i class='bx bxl-twitter'></i></a>
+            <a href="#" class="link" style="background-color:#8a3ab9"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="link" style="background-color:#ff0000"><i class='bx bxl-youtube'></i></a>
+            <!--https://boxicons.com/-->
+        </div>
+
+
+        <div class="btn">
+            <button class="button">Subscibe</button>
+            <button class="button">Massage</button>
+        </div>
+
+
+        <div class="analytic">
+            <i class='bx bx-heart'></i><span class="number">80k</span>
+            <i class='bx bx-message-rounded-dots'></i><span class="number">60k</span>
+            <i class='bx bx-share-alt'></i><span class="number">100k</span>
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+
+
+</html>
